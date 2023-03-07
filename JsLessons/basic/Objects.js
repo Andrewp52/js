@@ -20,7 +20,7 @@ console.table(myCity)
 myCity['popular'] = true;
 console.table(myCity);
 
-// Add field v2 with name in var
+// Add field v2 with name from var
 const stateField = 'state';
 myCity[stateField] = 'NY';
 console.table(myCity);
@@ -35,7 +35,7 @@ const myCity2 = {
     }
 }
 
-console.table(myCity2);
+console.dir(myCity2);
 
 //========================================
 // Declaring object with the same fields names as earlier declared vars

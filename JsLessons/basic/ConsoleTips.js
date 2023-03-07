@@ -1,7 +1,11 @@
 let person = {
     name: 'Andrew',
     age: 41,
-    sex: 'male'
+    sex: 'male',
+    job: {
+        title: 'Dev',
+        isFun: true
+    }
 }
 
 

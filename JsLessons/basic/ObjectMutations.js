@@ -19,6 +19,6 @@ c2.name = 'SF';
 const c3 = { ...city}
 c3.name = 'TX'
 
-// By JSON conversion (Nested objects are also copies)
+// By JSON conversion (Nested objects are also copied)
 const c4 = JSON.parse(JSON.stringify(city));
 
